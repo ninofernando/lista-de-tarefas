@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: white;
+    padding: 1rem;
+}
+
+section {
+
+    input {
+        height: 2rem;
+        width: 15rem;
+        border-radius: 8px;
+        border-color: #50FA7B;
+        padding-left: 0.5em;
+    }
+
+    button {
+        height: 2rem;
+        width: 6rem;
+        border-radius: 8px;
+        color: #06070E;
+        background-color: #50FA7B;
+        border-color: #50FA7B;
+        font-size: 1em;
+        font-weight: bold;
+        margin-left: 0.5em;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.05);
+          }
+    }
+
+   ul {
+        display: block;
+        list-style: none;
+        padding: 1rem 0rem;
+        line-height: 1.5;
+        color: antiquewhite;
+        font-size: 1em;
+        cursor: pointer;
+
+        button {
+            height: fit-content;
+            width: 5em;
+            background-color: #ff4500;
+            border: none;
+        }   
+    }
+}
+
+.riscado {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+
