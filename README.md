@@ -27,6 +27,8 @@ Aplicação simples para gerir tarefas, feita em HTML, CSS e JavaScript puro.
 - Trabalhar com eventos (click, keydown)
 - Guardar e ler dados com `localStorage` e `JSON`
 
+Site publicado com GitHub Pages.
+
 ## Autor
 
 Nino Fernando
